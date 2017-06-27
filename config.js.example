@@ -1,0 +1,22 @@
+module.exports = {
+	AWS_ACCESS_KEY: '',
+	AWS_SECRET_ACCESS_KEY: '',
+	AWS_REGION: '',
+
+	IOS_PLATFORM_APPLICATION_ARN: 'arn:aws:sns:xxx:xxx:xxx',
+	ANDROID_PLATFORM_APPLICATION_ARN: 'arn:aws:sns:xxx:xxx:xxx',
+
+	// Sample recipients
+	recipientDevices: [
+		{
+			token: '64-characters-long',
+			type: 'ios',
+			username: 'johndoe' // optional
+		},
+		{
+			token: '152-(?)-characters-long',
+			type: 'android',
+			username: 'huber' // optional
+		},
+	]
+}
